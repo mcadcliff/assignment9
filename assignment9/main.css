@@ -1,0 +1,94 @@
+h1 {font-family: sans-serif;
+    width: 100%;
+    text-align: center;}
+
+#llamaFacts {font-size: 12pt;
+            width: 90%;
+            padding: 0 0 0 5em;}
+
+
+#llamaFacts a {text-decoration: none;
+                color: black;}
+
+#llamaFacts a:hover {color: red;}
+
+
+.wrapper {display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 150px 150px;
+        grid-gap: 20px;
+        position: relative;}
+
+
+/*Fact 1*/
+.fact1 {grid-column: 1;
+        grid-row: 1;}
+
+.fact1 img {width:50%;}
+
+
+/*Fact 2*/
+.fact2 {grid-column: 1;
+        grid-row:2;
+        padding-top: 20em;}
+
+.fact2 img {width: 50%;}
+
+
+/*Fact 3*/
+.fact3 {grid-column: 1;
+        grid-row: 3;}
+
+.fact3 img {width: 50%;
+            margin-top: 35em;}
+
+
+/*Fact 4*/
+.fact4 {grid-column: 1;
+        grid-row: 4;}
+
+.fact4 img {width: 50%;}
+
+
+/*Fact 5*/
+.fact5 {grid-column: 1;
+        grid-row: 5;}
+
+.fact5 img {width: 50%;}
+
+
+/*Fact 6*/
+.fact6 {grid-column: 2;
+        grid-row: 1;}
+
+.fact6 img {width: 75%;}
+
+
+/*Fact 7*/
+.fact7 {grid-column: 2;
+        grid-row: 2;}
+
+.fact7 img {width: 75%;
+        padding-top: 10em;}
+
+
+/*Fact 8*/
+.fact8 {grid-column: 2;
+        grid-row: 3;}
+
+.fact8 img {width: 75%;
+        padding-top: 22em;}
+
+
+/*Fact 9*/
+.fact9 {grid-column: 2;
+        grid-row: 4;}
+
+.fact9 img {width: 75%;}
+
+
+/*Fact 10*/
+.fact10 {grid-column: 2;
+        grid-row: 5;}
+
+.fact10 img {width: 75%;}
